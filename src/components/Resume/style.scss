@@ -1,0 +1,146 @@
+.resume {
+  background: #fff;
+  width: 1100px;
+  margin: 0 auto;
+
+  &__content {
+    display: flex;
+    flex-direction: column;
+
+    h4 {
+      font-size: 18px;
+      // margin-bottom: px;
+      text-transform: capitalize;
+    }
+
+    h5 {
+      font-size: 14px;
+      font-weight: bold;
+      margin: 0;
+    }
+    p,span,a {
+      font-size: 14px;
+    }
+
+    &__header {
+      display: flex;
+      align-items: start;
+      justify-content: space-between;
+
+      &__name {
+        h2 {
+          font-size: 36px;
+          font-weight: 700;
+        }
+
+        h3 {
+          font-size: 22px;
+          font-weight: 700;
+        }
+      }
+
+      &__profile {
+        ul {
+          li {
+            display: flex;
+
+            p {
+              width: 60px;
+            }
+            .profileDot {
+              margin: 0 10px 4px 4px;
+            }
+          }
+        }
+      }
+    }
+
+    &__aboutSelf {
+      p {
+        text-align: justify;
+      }
+    }
+
+    &__technicalProject {
+      &__list {
+        .inlineField {
+          // margin-left: 20px;
+          display: flex;
+          align-items: baseline;
+
+          h6 {
+            margin: 0;
+            width: 80px;
+          }
+
+          span {
+            // margin-left: 0px 8px;
+            margin: 0 10px 4px 4px;
+          }
+
+          .Pname {
+            font-weight: bold;
+          }
+          .project_details_text {
+            text-align: justify;
+          }
+        }
+      }
+    }
+
+    &__skill {
+      &__list {
+        display: flex;
+        align-items: start;
+        justify-content: space-between;
+      }
+    }
+
+    &__edu_lan {
+      margin-top: 10px;
+      display: flex;
+      align-items: start;
+      justify-content: space-between;
+
+      .education {
+        .education__institute {
+          div {
+            display: flex;
+            align-items: baseline;
+
+            h6 {
+              margin: 0;
+              width: 65px;
+            }
+            span {
+              margin: 0 6px 4px 4px;
+            }
+          }
+        }
+      }
+      .languages {
+        div {
+          display: flex;
+          align-items: baseline;
+
+          h6 {
+            margin: 0;
+            width: 40px;
+          }
+          span {
+            margin: 0 6px 4px 4px;
+          }
+        }
+      }
+    }
+  }
+}
+.title-name-list {
+  width: 80px;
+}
+.gap {
+  margin-top: 20px;
+}
+.gap-project-area {
+  margin-top: 12px;
+}
