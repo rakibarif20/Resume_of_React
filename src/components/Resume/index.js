@@ -20,8 +20,8 @@ const Resume = () => {
               <li>
                 <p>Linkedin</p>
                 <span className="profileDot">:</span>
-                <a href="https://www.linkedin.com/in/rakib-arif-627438199/">
-                  https://www.linkedin.com/in/rakib-arif-627438199/
+                <a href="https://www.linkedin.com/in/md-rakib-hasan-627438199/">
+                https://www.linkedin.com/in/md-rakib-hasan-627438199/
                 </a>
               </li>
               <li>
