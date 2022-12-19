@@ -21,7 +21,7 @@ const Resume = () => {
                 <p>Linkedin</p>
                 <span className="profileDot">:</span>
                 <a href="https://www.linkedin.com/in/md-rakib-hasan-627438199/">
-                https://www.linkedin.com/in/md-rakib-hasan-627438199/
+                  https://www.linkedin.com/in/md-rakib-hasan-627438199/
                 </a>
               </li>
               <li>
@@ -52,6 +52,33 @@ const Resume = () => {
               React, Sass, TailwindCss, Bootstrap, and other Front-End technologies. I'm interested to learn MERN stack
               development. Now finding a job to contribute my knowledge and get knowledge working with others.
             </p>
+          </div>
+        </div>
+        <div className="resume__content__work">
+          <div className="resume__content__work__item">
+            <div className="gap"></div>
+            <h4>work experience :</h4>
+            <div className="gap_two"></div>
+            <div className="resume__content__work__item__details">
+              <div className="company_name">
+                <h5>
+                  DSolutions
+                </h5>
+                <span>, Dhaka, Bangladesh</span>
+              </div>
+              <div className="work_details">
+                <span>08/2021 - 11/2022</span>
+                <div className="gap_two"></div>
+                <h6>Key Responsibilities :</h6>
+                <ul>
+                  <li>Convert PSD, XD, Figma to HTML.</li>
+                  <li>Checking for errors and de-bugging for websites.</li>
+                  <li>Client interaction about the project.</li>
+                  <li>Making the website reponsive.</li>
+                  <li>React, Redux.</li>
+                </ul>
+              </div>
+            </div>
           </div>
         </div>
         <div className="gap"></div>
@@ -151,9 +178,7 @@ const Resume = () => {
             <div className="inlineField">
               <h6>Project Code</h6>
               <span>:</span>
-              <a href="https://github.com/rakibarif20/task-managment">
-              https://github.com/rakibarif20/task-managment
-              </a>
+              <a href="https://github.com/rakibarif20/task-managment">https://github.com/rakibarif20/task-managment</a>
             </div>
             <div className="inlineField">
               <h6>Project Live</h6>
@@ -166,7 +191,8 @@ const Resume = () => {
               </div>
               <span>:</span>
               <p className="project_details_text">
-              You can use this project for any group work. How many users have there you can see that. If any users want to be created updated and deleted their tasks easily they can do it.
+                You can use this project for any group work. How many users have there you can see that. If any users
+                want to be created updated and deleted their tasks easily they can do it.
               </p>
             </div>
             <div className="inlineField">
@@ -175,8 +201,8 @@ const Resume = () => {
               </div>
               <span>:</span>
               <p className="project_details_text">
-                HTML, Css, JavaScript, React, Sass, React-icons, React-redux, Redux-toolkit, React-router-
-                dom, and more.
+                HTML, Css, JavaScript, React, Sass, React-icons, React-redux, Redux-toolkit, React-router- dom, and
+                more.
               </p>
             </div>
           </div>
@@ -221,9 +247,8 @@ const Resume = () => {
         <div className="resume__content__skill">
           <h4>skills :</h4>
           <div className="resume__content__skill__list">
-            
             <div className="resume__content__skill__list__item">
-            <div className="gap-project-area"></div>
+              <div className="gap-project-area"></div>
               <h5>Languages</h5>
               <div className="gap-project-area"></div>
               <p>JavaScript, HTML</p>
@@ -233,7 +258,7 @@ const Resume = () => {
                 </ul> */}
             </div>
             <div className="resume__content__skill__list__item">
-            <div className="gap-project-area"></div>
+              <div className="gap-project-area"></div>
               <h5>Framework</h5>
               <div className="gap-project-area"></div>
               <p>
@@ -247,7 +272,7 @@ const Resume = () => {
                 </ul> */}
             </div>
             <div className="resume__content__skill__list__item">
-            <div className="gap-project-area"></div>
+              <div className="gap-project-area"></div>
               <h5>Other Technologies</h5>
               <div className="gap-project-area"></div>
               <p>

@@ -61,6 +61,32 @@
       }
     }
 
+    &__work {
+      &__item {
+        .company_name {
+          display: flex;
+          align-items:center;
+          span {
+            font-size: 14px;
+          }
+        }
+        .work_details {
+          h6 {
+            font-size: 14px;
+            font-weight: 700;
+            margin: 0;
+          }
+          ul {
+            list-style-type: disc;
+            margin: 2px 0 0 16px;
+            li {
+              font-size: 14px;
+              line-height: 20px;
+            }
+          }
+        }
+      }
+    }
     &__technicalProject {
       &__list {
         .inlineField {
@@ -143,4 +169,7 @@
 }
 .gap-project-area {
   margin-top: 12px;
+}
+.gap_two {
+  margin-top: 6px;
 }
