@@ -76,12 +76,12 @@
             font-weight: 700;
             margin: 0;
           }
-          ul {
-            list-style-type: disc;
-            margin: 2px 0 0 16px;
-            li {
-              font-size: 14px;
-              line-height: 20px;
+          .use_skills {
+            display: flex;
+            align-items: baseline;
+
+            p {
+              margin-left: 4px;
             }
           }
         }

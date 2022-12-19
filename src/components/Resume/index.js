@@ -62,21 +62,18 @@ const Resume = () => {
             <div className="resume__content__work__item__details">
               <div className="company_name">
                 <h5>
-                  DSolutions
+                  Front-End Developer - DSolutions BD Ltd.
                 </h5>
-                <span>, Dhaka, Bangladesh</span>
+                
               </div>
               <div className="work_details">
-                <span>08/2021 - 11/2022</span>
+                <span>AUG 2021 - NOV 2022 | Bangladesh</span>
                 <div className="gap_two"></div>
-                <h6>Key Responsibilities :</h6>
-                <ul>
-                  <li>Convert PSD, XD, Figma to HTML.</li>
-                  <li>Checking for errors and de-bugging for websites.</li>
-                  <li>Client interaction about the project.</li>
-                  <li>Making the website reponsive.</li>
-                  <li>React, Redux.</li>
-                </ul>
+                <p>I had worked on a project which is about making a ready-made components holder like bootstrap and material UI. The project is still in progress. We are making only the HTML components now. But it'll add both frontend and backend components that are used for the maximum number of websites.</p>
+                <div className="use_skills">
+                  <h6>Skills Used : </h6>
+                  <p>React, Redux, Bootstrap, Sass and more.</p>
+                </div>
               </div>
             </div>
           </div>
